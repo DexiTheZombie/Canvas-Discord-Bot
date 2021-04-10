@@ -5,6 +5,13 @@ A discord bot i created for my work based placement project. TL;DR Its a bot tha
 
 <b>This is not designed to work publically its very specifically made. (easily changeable, might do in the future.) but just note you may want to customise and configure the code before using it. (might also wanna fix some probably bad code practices)</b>
 
+## Premade Commands
+
+<b>Config.json [Discord config file]</b>
+<p>
+getindex <index>: gets the given index of the assignments.
+<br>list: lists all avaiable assignments along with index's.
+</p>
 
 ## Config Types
 
