@@ -1,6 +1,13 @@
 # Canvas-Discord-Bot
 A discord bot i created for my work based placement project. TL;DR Its a bot that grabs and lists info about assignments linked to a users account.
 
+## Important
+
+<b>This is not designed to work publically its very specifically made. (easily changeable, might do in the future.) but just note you may want to customise and configure the code before using it. (might also wanna fix some probably bad code practices)</b>
+
+
+## Config Types
+
 <b>Config.json [Discord config file]</b>
 <p>
 Token: Discord bot OAuth token
