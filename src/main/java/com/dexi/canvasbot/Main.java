@@ -10,7 +10,7 @@ import net.dv8tion.jda.api.entities.Activity;
 public class Main
 {
 
-    // if anyone has any notes, 1. suck it. 2. contact me on discord: [ばか] Dexi#2001
+    // if anyone has any notes, contact me on discord: [ばか] Dexi#2001
 
     public static String prefix;
     public static JDA jda;
@@ -19,6 +19,7 @@ public class Main
     {
         try
         {
+            // Trys to grab token from config file. the attempts to login to the JDABuilder using the bot's token.
             String token = ConfigHandler.GetJsonString("config.json","token");
             prefix = ConfigHandler.GetJsonString("config.json","prefix");
             jda = JDABuilder.createDefault(token).setActivity(Activity.of(Activity.ActivityType.WATCHING, "the CanvasAPI")).addEventListeners(new MessageListener()).build();
